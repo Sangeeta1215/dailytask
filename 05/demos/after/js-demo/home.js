@@ -1,2 +1,2 @@
 
-showMessage('help');
+showMessage('help me');
