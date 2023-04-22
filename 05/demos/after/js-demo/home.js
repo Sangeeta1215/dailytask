@@ -1,2 +1,2 @@
 
-showMessage('help me');
+showMessage('Changed Message');
