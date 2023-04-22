@@ -1,2 +1,2 @@
-
-showMessage('Changed Message');
+showMessage("help Me");
+console.log("Are You Mad?");
