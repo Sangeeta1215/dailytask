@@ -1,3 +1,4 @@
-let 9="Welcome to the world of coding";
-showMessage(9);          
+let price=49.55;
+price=99
+showMessage(price);          
 console.log("Are You Aware?");
