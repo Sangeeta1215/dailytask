@@ -1,4 +1,3 @@
-showMessage("help Me");          //this is a single line comment 
+let i="Welcome to the world of coding";
+showMessage(i);          
 console.log("Are You Aware?");
-/* this is a multiline comment that is we are 
-   adding comments of more than one line */
