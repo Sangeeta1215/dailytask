@@ -1,4 +1,5 @@
-const price=49.55;
-showMessage(typeof(price));          
+let  price="World";
+let pr=`Hello ${price}`;
+showMessage(pr);          
 console.log("Are You Aware?");
 
