@@ -1,5 +1,5 @@
-let  price=123
- price=price.toString()
+let  price="123"
+ price=Number.parseFloat(price)
 showMessage(typeof(price));   
 
 
