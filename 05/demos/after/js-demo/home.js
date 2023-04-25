@@ -1,5 +1,5 @@
-let  price="123"
+let  price="A123.01"
  price=Number.parseFloat(price)
-showMessage(typeof(price));   
+showMessage(price);   
 
 
