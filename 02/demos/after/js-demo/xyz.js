@@ -26,15 +26,14 @@
 // var b=ar1.flat();
 // console.log(b);
 
- var ar=[2,5,8,10,31,56];
- var initialValue=0;
- var b=ar.reduce((accumulator,currentValue)=>accumulator+currentValue,initialValue);
- console.log(b);
+//  var ar=[2,5,8,10,31,56];
+//  var initialValue=0;
+//  var b=ar.reduce((accumulator,currentValue)=>accumulator+currentValue,initialValue);
+//  console.log(b);
 
-
-// var ar1=[1,3,5,7,89,8,444];
-// var a=((ar1.map(item=>item)).filter((item)=>item%2==0)).sort();
-// console.log(a);
+var ar1=[1,3,5,7,89,8,444];
+var a=((ar1.map(item=>item)).filter((item)=>item%2==0)).sort();
+console.log(a);
 
 
 
