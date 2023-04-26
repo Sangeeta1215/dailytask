@@ -1,0 +1,26 @@
+<html>
+<head> </head>
+<title>Armstrong</title>
+<body>
+    <script>
+        var rem;
+        var sum=0;
+    var a=prompt("Enter the value of a:");
+    var a1=a;
+    while(a>0)
+    {
+    rem=a%10;
+    sum=sum+(rem*rem*rem);
+    a=Math.floor(a/10);
+    }
+    if(a1==sum)
+    {
+    console.log("number is armstrong");
+    }
+    else
+    {
+    console.log("number is not armstrong");
+    }
+    </script>
+</body>
+</html>
