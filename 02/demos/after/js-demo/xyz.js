@@ -8,19 +8,19 @@
 // console.log(a); 
 
 
- function myfun()
-{
-let ar=["sourav","Gourav","Ram","Falgun","sa"];
-var a=ar.filter((item)=>(item.length>3))
-console.log(a);
-}
-myfun()
+//  function myfun()
+// {
+// let ar=["sourav","Gourav","Ram","Falgun","sa"];
+// var a=ar.filter((item)=>(item.length>3))
+// console.log(a);
+// }
+// myfun()
 
-// var ar=[2,5,8,9,10];
-// //var a= ar.find((item)=>(item%2==0))
-// //console.log(a)
-// ar.sort((a,b) => (b)-(a))
-// console.log(ar);
+var ar=[2,5,8,9,10];
+var a= ar.find((item)=>(item%2==0))
+console.log(a)
+ar.sort((a,b) => (b)-(a))
+console.log(ar);
 
 // var ar1=[[1,3,5],[3,7,9,10]]
 // var b=ar1.flat();
