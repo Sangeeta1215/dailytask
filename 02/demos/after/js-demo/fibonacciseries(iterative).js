@@ -8,7 +8,5 @@ for(var i=1;i<10;i++)
     next=n1+n2;
     console.log(next);
     n1=n2;
-    n2=next;
-    
-    
+    n2=next;  
 }
