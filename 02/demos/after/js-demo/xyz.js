@@ -32,10 +32,35 @@
 //  console.log(b);
 
 var ar1=[1,3,5,7,89,8,444];
-var a=((ar1.map(item=>item)).filter((item)=>item%2==0)).sort();
+//var a=((ar1.map(item=>item)).filter((item)=>item%2==0)).sort();
+//console.log(a);
+var count=0;
+var a=ar1.filter(prime);
 console.log(a);
 
+function prime(item)
+{
+for(var i=2;i<item/2;i++)
+{
+if(item%i==0)
+{
+count++;
+}
+}
+if((count==0)&&(item!=1))
+{
+return true;
+}
+}
 
+var a=10
+console.log(new Boolean(a));
 
-
+var ar=[1,2]
+function test(a,b)
+{
+console.log(a+b)
+}
+test(ar);
+test(...ar);    //spread operator
 
