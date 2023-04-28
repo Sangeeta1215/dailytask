@@ -39,3 +39,45 @@ else
 {
 console.log(i);
 }
+
+if(1=="1")
+{
+console.log(1);
+}
+if(1==="1")
+{
+console.log(1);
+}
+
+let num=10;
+var f=10;
+(num<20)?console.log(true):console.log(false);
+var nu=f<20?"Yes":"no";
+console.log(nu);
+
+//if(true)
+//{
+// let val=10;
+//const val=10;
+// var val=10;
+//}
+//console.log(val);
+
+var number=4;
+// while(number>0)
+// {
+// console.log(number);
+// number--;
+// }
+do
+{
+console.log(number);
+number--;
+}
+while(number>0)
+
+if(4)
+{
+console.log(true);
+}
+
