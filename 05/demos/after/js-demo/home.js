@@ -1,4 +1,4 @@
- let values=[1,2,3];
+ //let values=[1,2,3];
 // let array=Array.of(1,4,6);       //Array Object with method Of
 // console.log(values);
 // console.log(array);
@@ -7,25 +7,25 @@
 // values[0]=5;
 // console.log(values);
 
-values.push("a");
-console.log(values);
-const last=values.pop();
- console.log(values,last);
-let first=values.shift();
-console.log(values,first);
-values.unshift("a");
-console.log(values);
+// values.push("a");
+// console.log(values);
+// const last=values.pop();
+//  console.log(values,last);
+// let first=values.shift();
+// console.log(values,first);
+// values.unshift("a");
+// console.log(values);
 
 
-//let val=['s','r','c'];
-// console.log(val.indexOf("c"));
-// console.log(val.indexOf("d"));
+let val=['s','r','c'];
+console.log(val.indexOf("c"));
+console.log(val.indexOf("d"));
 
-// const set=val.filter(function(item)
-// {
-// return item >'c';
-// });
-// console.log(set);
+const set=val.filter(function(item)
+{
+return item >'c';
+});
+console.log(set);
 
 // const set=val.find(function(item)
 // {
