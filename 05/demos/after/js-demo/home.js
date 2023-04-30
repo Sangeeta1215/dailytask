@@ -11,10 +11,14 @@
 // }
 // showProductId();
 
-function showProduct()
+let productId=12345;
+function showProduct(id)
 {
-    let id=12345;
-    //console.log(id);
+    function fix()
+    {
+    console.log("in fix:",productId);
+    }
+    fix();
+    console.log("in showProduct:",productId);
 }
 showProduct();
-console.log(id);
