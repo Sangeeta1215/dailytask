@@ -27,17 +27,17 @@ let val=['s','r','c'];
 // });
 // console.log(set);
 
-const set=val.find(function(item)
-{
-return item > "c";
-});
-console.log(set);
-
-// const values1=['a','b','c','d'];
-// values1.forEach(function(item)
+// const set=val.find(function(item)
 // {
-// console.log(item);
-// })
+// return item > "c";
+// });
+// console.log(set);
+
+const values1=['a','b','c','d'];
+values1.forEach(function(item)
+{
+console.log(item);
+})
 
 
 
