@@ -1,20 +1,7 @@
-let message="Hello";
-function changeMessage(message)
-{
-message="hi";
-}
-changeMessage(message);
-showMessage(message);
-
-// let person=
-// {
-// name:"John",
-// age:32,
-// partTime:false
-// };
-// function changeAge(person)
-// {
-// person.age++;
-// }
-// changeAge(person);
-// showMessage(person.age);
+let now=new Date();
+showMessage(now.toDateString());
+//showMessage(now.getFullYear());
+ //showMessage(now.getMonth());
+ //showMessage(now.getHours());
+ //showMessage(now.getSeconds());
+//showMessage(now.getDay());
