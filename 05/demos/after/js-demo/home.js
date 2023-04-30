@@ -1,12 +1,20 @@
-const app=
+// const app=
+// {
+// productId:12345,
+// username:"Joe",
+// orderNumber:789
+// };
+// function showProductId()
+// {
+// console.log(app.productId);
+// console.log(app.username);
+// }
+// showProductId();
+
+function showProduct()
 {
-productId:12345,
-username:"Joe",
-orderNumber:789
-};
-function showProductId()
-{
-console.log(app.productId);
-console.log(app.username);
+    let id=12345;
+    //console.log(id);
 }
-showProductId();
+showProduct();
+console.log(id);
