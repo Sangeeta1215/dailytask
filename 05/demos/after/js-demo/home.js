@@ -1,5 +1,10 @@
-productId=456;               //hoisting
+// showProduct();                     //hoisting
+
+// function showProduct()
+// {
+// console.log(123);
+// }
+'use strict'
+ var productId=1234;
 console.log(productId);
- var productId=123;
-//let productId=123;
-//const productId=123;
+console.log(window.productId);
