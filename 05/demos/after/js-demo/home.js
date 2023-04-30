@@ -1,15 +1,16 @@
-// let string="Gourav";
-// let s="  Sourav    ";
-// let number=123;
-//showMessage(string.charAt(3));
-//showMessage(string.toUpperCase());
-//showMessage(string.slice(2,4));
-// showMessage(s.trim());
-// showMessage(isNaN(number));
+// const button=document.getElementById('see-review');
+// button.addEventListener('click',function(){console.log('click');});
 
-// showMessage(isNaN(number));
-// showMessage(isNaN(string));
-
-const header=document.getElementById('message');
-header.style.color='red';
-header.style.fontWeight="1000";
+const button=document.getElementById('see-review');
+button.addEventListener('click',function()
+{const review=document.getElementById("review");
+if(review.classList.contains("d-none"))
+{
+review.classList.remove("d-none");
+button.textContent='CLOSE REVIEW';
+}
+else{
+review.classList.add("d-none");
+button.textContent='SEE REVIEW';
+}
+});
