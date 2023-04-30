@@ -18,20 +18,20 @@
 
 
 let val=['s','r','c'];
-console.log(val.indexOf("c"));
-console.log(val.indexOf("d"));
+// console.log(val.indexOf("c"));
+// console.log(val.indexOf("d"));
 
-const set=val.filter(function(item)
-{
-return item >'c';
-});
-console.log(set);
-
-// const set=val.find(function(item)
+// const set=val.filter(function(item)
 // {
-// return item > "c";
+// return item >'c';
 // });
 // console.log(set);
+
+const set=val.find(function(item)
+{
+return item > "c";
+});
+console.log(set);
 
 // const values1=['a','b','c','d'];
 // values1.forEach(function(item)
