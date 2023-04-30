@@ -23,9 +23,27 @@
 // }
 // f("Harry","Bhai");
 
- var f=function(value)
+// let key=4;
+//  var f=function(value)
+//  {
+//  let n=value*4*key;
+//  return n;
+//  }
+//  showMessage(f(2));
+//  console.log(f(4));
+//  console.log(n);
+
+ let key=42;
+ function keyGenerator(value)                   //function scope
  {
- var n=value*4;
- return n;
+let secretCode=function(){
+    let key=12;
+    console.log("In secret key is:",key);
+    return key;
+}
+let code=value*secretCode();
+console.log("In key generator key is:",key);
+return code;
  }
- showMessage(f(2));
+ showMessage(keyGenerator(2));
+ changePercentOff(60);
