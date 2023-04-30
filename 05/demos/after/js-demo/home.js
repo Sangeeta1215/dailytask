@@ -5,7 +5,8 @@ age:25,
 partTime:false,
 showInfo:function(realage)
 {
-showMessage(this.name +" is "+ this.age);
+//showMessage(this.name +" is "+ realage);
 }
 };
-person.showInfo(34);
+// person.showInfo(34);
+showMessage(typeof (person.showInfo));
