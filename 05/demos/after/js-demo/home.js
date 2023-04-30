@@ -1,12 +1,20 @@
+// let message="Hello";
+// function changeMessage(message)
+// {
+// message="hi";
+// }
+// changeMessage(message);
+// showMessage(message);
+
 let person=
 {
 name:"John",
-age:25,
-partTime:false,
-showInfo:function(realage)
-{
-//showMessage(this.name +" is "+ realage);
-}
+age:32,
+partTime:false
 };
-// person.showInfo(34);
-showMessage(typeof (person.showInfo));
+function changeAge(person)
+{
+person.age++;
+}
+changeAge(person);
+showMessage(person.age);
