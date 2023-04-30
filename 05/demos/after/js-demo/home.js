@@ -3,8 +3,9 @@ let person=
 name:"John",
 age:25,
 partTime:false,
+showInfo:function()
+{
+showMessage("in showinfo");
+}
 };
-// person.age=35;
-person["age"]=45;
-showMessage(person.age);
-
+person.showInfo();
