@@ -1,40 +1,71 @@
-// var object=
+// var a=
+// [
 // {
-// name:"gourav",
-// age:7,
-// roll:function()
+// name:"Rahul",
+// age:63
+// },
 // {
-// rollno:1;
-// }
+//     name:"Ram",
+//     age:7
+//     },
+//     {
+//         name:"Rajan",
+//         age:2
+//         }
+// ];
 
-// }
-// for(var i in object)
+// function fun(a){
+// for(var item of a)
 // {
-// console.log(i + ":"+ object[i]);
+// if(item.age>10)
+// {
+//     continue;
 // }
+// console.log(item);
+// }
+// }
+// fun(a);
 
 // let products=[
 //     {
-//     productID:680,
-//     name:"HL Road Frame - Black,58",
-//     productNumber:"FR-R92B-58"
+//         productId:680,
+//         name:"HL Road Frame - Black,58",
+//         standardCost:1059.31
 //     },
 //     {
-//         productID:890,
-//         name:"Sport-100 Helmet,Red",
-//         productNumber:"HL-U509-R"
+//         productId:707,
+//         name:"HL Road Frame - Black,58",
+//         standardCost:13.08
+//     },
+//     {
+//         productId:980,
+//         name:"HL Road Frame - Black,58",
+//         standardCost:9.50
 //     }
 // ];
-// for(var i of products)
+// function fun()
 // {
-// console.log(JSON.stringify(i));
+// for(const item of products)
+// {
+// if(item.standardCost<20)
+// {
+// break;
 // }
-// console.log(typeof(products)); 
+// console.log(item);
+// }
+// }
+// fun();
 
-let productName="HL Road Frame - Black,58";
-let letters=" ";
-for(var char of productName)
+function labelSample()
 {
-letters=letters+char;
+even:
+for(let index=1;index<=10;index++)
+{
+if(index %2==1)
+{
+continue even;
 }
-console.log(letters);
+console.log(index);
+}
+}
+labelSample();
