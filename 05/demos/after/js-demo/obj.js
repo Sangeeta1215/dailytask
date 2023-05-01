@@ -1,24 +1,50 @@
-let color="Red";
-let price=200;
-let result;
-if(color)
-{
-console.log("Color is red");
-}
-result=price>10;
-console.log(result);
-if(price>5)
-{
-console.log(price);
-}
-color=null;
-console.log("color == null =" +Boolean(color));
-color= "";
-console.log("color == ' ' = " +Boolean(color));
-color=undefined;
-console.log("color == undefined =" +Boolean(color));
-let value;
-console.log("let value =" +Boolean(value));
-value=100/"test";
-console.log("100/'test' =" +Boolean(value));
+// let price=200;
+// if(price>10 && price<1600)
+// {
+// console.log("Both conditions are true:");
+// }
+// if(price>10 && price<200)
+// {
+// console.log("Price is greater than 10 but not less than 200");
+// }
+// if(price>10 || price<1600)
+// {
+//     console.log("Both conditions are true:");  
+// }
+// if(price>10 || price<200)
+// {
+//  console.log("Price is greater than 10 but not less than 200");
+// }
+// if(!(price<10))
+// {
+// console.log("Price is not less than 10");
+// }
 
+function shortCircuitAndSample()
+{
+let result;
+result=isColorRed("Black") && isGreaterThan1400(1400);
+}
+function isColorRed(value)
+{
+console.log("In the isColorRed() function");
+return value === "Red";
+}
+function isGreaterThan1400(value)
+{
+console.log("In the isGreaterThan1400() function");
+return value >1400;
+}
+shortCircuitAndSample();
+
+function shortCircuitOrSample()
+{
+let result;
+console.log("");
+console.log("Calling isColorred() first");
+//Each expression is evaluated until one returns a true
+result = isColorRed("Red") || isGreaterThan1400(200);
+console.log("");
+console.log("Calling isGreaterThan1400() first");
+}
+shortCircuitOrSample();
