@@ -1,19 +1,15 @@
-let price=10;
+let price=200;
+let stringValue="100";
 let result=0;
-console.log("price="+price.toString());
-result=price+100;
-console.log("price + 100 ="+result.toString());
-result=price-100;
-console.log("price-100="+result.toString());
-result=result*2;
-console.log("price*2="+result.toString());
-result=result/2;
-console.log("price/2="+result.toString());
-result=result**2;
-console.log("price**2="+result.toString());
-result=result%2;
-console.log("price%2="+result.toString());
+console.log("price =" +price.toString());
 
+result=price+stringValue;
+console.log("result(number + stringValue)="+result.toString());
 
+result=price+(+stringValue);
+console.log("result(number +(+stringValue))="+result.toString());
 
-
+let i=10;
+let j=4;
+j+=i;
+console.log(j)
